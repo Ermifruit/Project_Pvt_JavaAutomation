@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<suite name="Suite" parallel="false">
+    <test name="Test1">
+        <classes>
+            <class name="tests.LogInTest"/>
+        </classes>
+    </test>
+    <test name="Test2">
+        <classes>
+            <class name="tests.LogOutTest"/>
+        </classes>
+    </test>
+    <test name="Test3">
+        <classes>
+            <class name="tests.SendMessageTest"/>
+        </classes>
+    </test>
+    <test name="Test4">
+        <classes>
+            <class name="tests.DeleteMessageTest"/>
+        </classes>
+    </test>
+</suite>
